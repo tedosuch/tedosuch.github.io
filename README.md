@@ -1,1 +1,1 @@
-It's  a Jekyl site uploaded to Github Pages.
+It's  a Jekyll site uploaded to Github Pages.
