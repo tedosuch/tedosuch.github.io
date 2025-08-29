@@ -16,9 +16,9 @@ p{
 }
 
 .card {
-  width: 200px;
+  width: 350px;
   height: 150px;
-  /* perspective: 1000px; */
+  perspective: 1000px;
   cursor: pointer;
 }
 
@@ -88,5 +88,13 @@ p.metaenglish {
   font-size: small;
   text-align: right;
   margin-left: -100px;
+}
+
+.menu {
+
+  text-align: center;
+  font-size: medium;
+  margin-top:50px;
+  margin-bottom:50px;
 }
 
