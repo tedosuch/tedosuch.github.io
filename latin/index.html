@@ -11,7 +11,6 @@
 body  {font-family: system-ui, sans-serif; background: #f9f5f0;text-align: center;}
 h1   {color: blue;}
 p    {color: red;}
-ul {list-style: none; font-size: large; padding:10px;border:2px solid powderblue;}
 
 a:link, a:visited {
   background-color: gray;
@@ -27,6 +26,22 @@ a:link, a:visited {
 a:hover, a:active {
   background-color: gray;
 }
+
+.flex-container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10 px;
+  justify-content: center;
+}
+
+.flex-container > div {
+  margin: 5px;
+  padding: 10px;
+  font-size: 15px;
+
+  
+}
 </style>
     </head>
     <body>
@@ -37,18 +52,32 @@ a:hover, a:active {
 
         <H3>Lessons</H3>
 
-        <ul>
-        <li><a href="/latin/latin01">Lesson 1</a></li>
-        <li><a href="/latin/latin02">Lesson 2</a></li>
-        <li><a href="/latin/latin03">Lesson 3</a></li>
-        <li><a href="/latin/latin04">Lesson 4</a></li>
-        <li><a href="/latin/latin05">Lesson 5</a></li>
-        <li><a href="/latin/latin06">Lesson 6</a></li>
-        <li><a href="/latin/latin07">Lesson 7</a></li>
-        <li><a href="/latin/latin08">Lesson 8</a></li>
-        <li><a href="/latin/latin09">Lesson 9</a></li>
-        <li><a href="/latin/latin10">Lesson 10</a></li>
-       </ul>
-            
+  <div class="flex-container">
+  <div><a href="/latin/latin01">Lesson 1</a></div>
+  <div><a href="/latin/latin02">Lesson 2</a></div>
+</div>
+
+<div class="flex-container">
+  <div><a href="/latin/latin03">Lesson 3</a></div>
+  <div><a href="/latin/latin04">Lesson 4</a></div>
+</div>
+
+<div class="flex-container">
+  <div><a href="/latin/latin05">Lesson 5</a></div>
+  <div><a href="/latin/latin06">Lesson 6</a></div>
+</div>
+
+<div class="flex-container">
+  <div><a href="/latin/latin07">Lesson 7</a></div>
+  <div><a href="/latin/latin08">Lesson 8</a></div>
+</div>
+
+<div class="flex-container">
+  <div><a href="/latin/latin09">Lesson 9</a></div>
+  <div><a href="/latin/latin10">Lesson 10</a></div>
+</div>
+
+
+       
     </body>
 </html>
