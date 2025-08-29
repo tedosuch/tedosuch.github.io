@@ -3,10 +3,6 @@ body {
   background: #f9f5f0;
   margin: 2rem;
 }
-p{
-  margin:0px;
-  padding:0px
-}
 
 #flashcard-container {
   display: flex;
@@ -93,7 +89,7 @@ p.metaenglish {
 .menu {
 
   text-align: center;
-  font-size: medium;
+  font-size:x-large;
   margin-top:50px;
   margin-bottom:50px;
 }
